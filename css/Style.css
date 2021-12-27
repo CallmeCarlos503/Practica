@@ -1,0 +1,22 @@
+a{
+    color: white;
+}
+#Menu{
+    color: rgb(32, 111, 131);
+}
+#Tema{
+    color: salmon;
+}
+#Submenu{
+    color: rosybrown;
+}
+#Tema:hover{
+    color: red;
+}
+#Menu:hover{
+    color: black;
+    
+}
+#Submenu:hover{
+    color: darkblue;
+}

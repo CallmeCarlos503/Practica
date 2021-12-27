@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-    <link rel="stylesheet" href="bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" href="Frameworks/bulma/css/bulma.css">
+    <link rel="stylesheet" href="css/Style.css">
 </head>
+
 <body>
-    
+    <div class="columns" style="background-color: black;">
+        <div class="column is-one-fifth">
+
+            <aside class="menu" style="background-color: black; color: white;">
+                <p class="menu-label" id="Tema">
+                    General
+                </p>
+                <ul class="menu-list" style="color: white;">
+                    <li id="Menu"><a id="Menu">Dashboard</a></li>
+                    <li id="Menu"><a id="Menu">Customers</a></li>
+                </ul>
+                <p class="menu-label" id="Tema">
+                    Administration
+                </p>
+                <ul class="menu-list">
+                    <li><a id="Menu">Team Settings</a></li>
+                    <li>
+                        <a class="is-active" id="menu">Manage Your Team</a>
+                        <ul>
+                            <li><a id="Submenu">Members</a></li>
+                            <li><a id="Submenu">Plugins</a></li>
+                            <li><a id="Submenu">Add a member</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="Menu">Invitations</a></li>
+                    <li><a id="Menu">Cloud Storage Environment Settings</a></li>
+                    <li><a id="Menu">Authentication</a></li>
+                </ul>
+                <p class="menu-label" id="Tema">
+                    Transactions
+                </p>
+                <ul class="menu-list">
+                    <li><a id="Menu">Payments</a></li>
+                    <li><a id="Menu">Transfers</a></li>
+                    <li><a id="Menu">Balance</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column">
+            <h1 style="color: white;"><center> BIENVENIDOS A MI PAGINA WEB</center>  </h1>
+        </div>
+        
+    </div>
 </body>
+
 </html>
