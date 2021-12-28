@@ -558,7 +558,7 @@ a.box:active {
 }
 
 .button.is-text:active, .button.is-text.is-active {
-  background-color: #e8e8e8;
+  background-color: #26ec14;
   color: #363636;
 }
 
